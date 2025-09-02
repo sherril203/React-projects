@@ -1,47 +1,38 @@
 import { Routes, Route ,Navigate} from "react-router";
-import DeckRedirect from '../anime/DeckRedirect.jsx';
+//portfolio
 import PortFolio from '../Portfolio/PortFolio.jsx'
+//dashboard
 import DashBoard from "../Dashboard/DashBoard.jsx"; 
+//anime
+import DeckRedirect from '../anime/DeckRedirect.jsx';
  import SeriesLayout from "../anime/SeriesLayout.jsx";
 import Mainpage from "../anime/Mainpage.jsx";
-import Arc from '../anime/Arc.jsx'
-import Dm from '../anime/DM.jsx'
-import Dsod from "../anime/Dsod.jsx";
+//series
+import Arc from '../anime/Series/Arc.jsx'
+import Dm from '../anime/Series/DM.jsx'
+import Synchro from "../anime/Series/Synchro.jsx";
+import Dsod from "../anime/Series/Dsod.jsx";
+import Vrains from "../anime/Series/Vrains.jsx";
+import Gx from "../anime/Series/Gx.jsx";
+import GoRush from "../anime/Series/GoRush.jsx";
+import Sevens from "../anime/Series/Sevens.jsx";
+import Zexal from "../anime/Series/Zexal.jsx";
 import AboutWeb from '../anime/AboutWeb.jsx'
 import  ProNav from '../anime/ProNav.jsx'
-import Zexal from "../anime/Zexal.jsx";
+//characters
+import Yami from "../anime/Characters_cards/Yami.jsx";
+import Muto from "../anime/Characters_cards/Muto.jsx";
+import Yuesi from "../anime/Characters_cards/Yuesi.jsx";
+import Yuma from "../anime/Characters_cards/Yuma.jsx";
+import Kaiba from "../anime/Characters_cards/Kaiba.jsx";
+import Jaden from "../anime/Characters_cards/Jaden.jsx";
+import Playmaker from "../anime/Characters_cards/Playmaker.jsx";
+import Yuya from "../anime/Characters_cards/Yuya.jsx";
+import Yudias from "../anime/Characters_cards/Yudias.jsx";
+import Yuga from "../anime/Characters_cards/Yuga.jsx";
 import Deck from "../anime/Deck.jsx";
-import Yami from "../anime/Yami.jsx";
-import Muto from "../anime/Muto.jsx";
 import SeriesNav from "../anime/SeriesNav.jsx";
-import Synchro from "../anime/Synchro.jsx";
-import Yuesi from "../anime/Yuesi.jsx";
-import Yuma from "../anime/Yuma.jsx";
-import Kaiba from "../anime/Kaiba.jsx";
-import Jaden from "../anime/Jaden.jsx";
-import Playmaker from "../anime/Playmaker.jsx";
-import Yuya from "../anime/Yuya.jsx";
-import Vrains from "../anime/Vrains.jsx";
-import Gx from "../anime/Gx.jsx";
-import GoRush from "../anime/GoRush.jsx";
-import Yudias from "../anime/Yudias.jsx";
-import Yuga from "../anime/Yuga.jsx";
-import Sevens from "../anime/Sevens.jsx";
 import DeckLayout from "../anime/DeckLayout.jsx";
-import HomePage from "../Diy e-comerence/HomePage.jsx";
-import ProductPage from "../Diy e-comerence/ProductPage.jsx";
-import ContactPage from "../Diy e-comerence/ContactPage.jsx";
-import LoginPage from '../Diy e-comerence/LoginPage.jsx'
-import Signup from "../Diy e-comerence/Signup.jsx";
-import Glittercase from "../Diy e-comerence/Glittercase.jsx";
-import ProductLayout from "../Diy e-comerence/ProductLayout.jsx";
-import Birddesigncase from "../Diy e-comerence/Birddesigncase.jsx";
-import Blockframe from "../Diy e-comerence/Blockframe.jsx";
-import UserHomePage from "../Diy e-comerence/UserHomePage.jsx";
-import TestnomialPage from "../Diy e-comerence/TestnomialPage.jsx";
-
-
-
 const Routers = () => {
   return (
     <Routes>
@@ -82,24 +73,6 @@ const Routers = () => {
   <Route path="sevens" element={<Sevens />} />
   <Route path="rush" element={<GoRush />} />
 </Route>
-
-
-<Route path="/home" element={<HomePage />} />
-<Route path="/contact" element={<ContactPage/>}/>
-<Route path="/testinomial" element={<TestnomialPage/>}/>
-<Route path="/login" element={<LoginPage/>}/>
-<Route path="/signup" element={<Signup/>}/>
-<Route path="/user" element={<UserHomePage/>}/>
-<Route path="/products" element={<ProductPage />}/>
-<Route path="/products" element={<ProductLayout/>}>
-  <Route path="glitter" element={<Glittercase/>} />
-  <Route path="birddesign" element={<Birddesigncase/>}/>
-  <Route path="blockframe" element={<Blockframe/>}/>
-</Route>
-
-
-
-
     </Routes>
   );
 }

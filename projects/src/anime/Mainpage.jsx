@@ -1,5 +1,5 @@
 import React from 'react'
-import Series from './Series'
+import Series from './Series/Series'
 import Navbar from './Navbar'
 import Protagonist from './Protagonist'
 import Footer from './Footer'

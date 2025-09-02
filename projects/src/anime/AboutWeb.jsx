@@ -1,7 +1,7 @@
 import React from 'react'
 import Navbar from './Navbar'
 import Footer from './Footer'
-import Series from './Series'
+import Series from './Series/Series'
 import Protagonist from './Protagonist'
 import proPlayersImg from './images/pro-players.jpg';
 
