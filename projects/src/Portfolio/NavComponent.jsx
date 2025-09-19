@@ -2,16 +2,19 @@ import React from 'react'
 
 const NavComponent = () => {
   return (
-    <div className=' w-full h-full  bg-cyan-600 '>
-        <nav className='p-5 flex gap-90 text-center '>
-            <h2>Portfolio</h2>
-            <ul className='list-none flex gap-20'>
-                <li>Home</li>
-                <li>About</li>
-                <li>Contact</li>
-                <li>Resume</li>
-            </ul>
-        </nav>
+    <div className="w-full bg-cyan-600 shadow-md">
+      <nav className="max-w-7xl mx-auto p-5 flex justify-between items-center text-white">
+        {/* Logo / Brand */}
+        <h2 className="text-2xl font-bold tracking-wide">Portfolio</h2>
+
+        {/* Nav Links */}
+        <ul className="list-none flex gap-8 text-lg font-medium">
+          <li className="hover:text-gray-200 cursor-pointer transition">Home</li>
+          <li className="hover:text-gray-200 cursor-pointer transition">About</li>
+          <li className="hover:text-gray-200 cursor-pointer transition">Contact</li>
+          <li className="hover:text-gray-200 cursor-pointer transition">Resume</li>
+        </ul>
+      </nav>
     </div>
   )
 }
