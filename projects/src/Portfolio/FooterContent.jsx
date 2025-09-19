@@ -10,8 +10,8 @@ const FooterContent = () => {
         
         {/* Right Side - Links */}
         <ul className="flex gap-6 text-sm mt-10 md:mt-0">
-          <Link className="hover:text-gray-200 cursor-pointer transition">LinkedIn</Link>
-          <li className="hover:text-gray-200 cursor-pointer transition">GitHub</li>
+          <Link to="https://www.linkedin.com/in/m-sherril-james-kumar-b7a47a221/" className="hover:text-gray-200 cursor-pointer transition">LinkedIn</Link>
+          <Link to="https://github.com/sherril203" className="hover:text-gray-200 cursor-pointer transition">GitHub</Link>
           <li className="hover:text-gray-200 cursor-pointer transition">Contact</li>
         </ul>
       </div>

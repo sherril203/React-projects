@@ -98,7 +98,7 @@ const PortFolio = () => {
             <p><b>Languages:</b> Python (Basic), HTML, CSS, JavaScript, Bootstrap, Java (Basic)</p>
           </div>
           <div className="bg-gray-50 p-5 rounded shadow-sm text-center">
-            <p><b>Frameworks:</b> Pandas (Basic), NumPy (Basic), React, Node.js, MongoDB, Express</p>
+            <p><b>Frameworks:</b> Pandas (Basic), NumPy (Basic), MERN</p>
           </div>
           <div className="bg-gray-50 p-5 rounded shadow-sm text-center">
             <p><b>Tools:</b> Excel, PowerPoint, Figma, Git</p>
